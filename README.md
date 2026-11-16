@@ -1,3 +1,4 @@
+<img width="720" height="1600" alt="splashscreen" src="https://github.com/user-attachments/assets/4dfd2206-f861-44c8-929f-c92e7b298f52" />
 # 🐾 PawCare – Aplikasi Perawatan Kucing
 
 **PawCare** merupakan aplikasi berbasis Android yang dikembangkan untuk membantu pengguna memperoleh informasi seputar perawatan dan kesehatan kucing.
@@ -47,21 +48,21 @@ Berikut merupakan dokumentasi tampilan dari aplikasi PawCare.
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/splashscreen.jpg" width="180">
+      <img src="screenshots/splashscreen.jpeg" width="180">
       <br>Splash Screen
     </td>
     <td align="center">
-      <img src="screenshots/login.jpg" width="180">
+      <img src="screenshots/login.jpeg" width="180">
       <br>Login
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/login1.jpg" width="180">
+      <img src="screenshots/login1.jpeg" width="180">
       <br>Login 1
     </td>
     <td align="center">
-      <img src="screenshots/beranda.jpg" width="180">
+      <img src="screenshots/beranda.jpeg" width="180">
       <br>Beranda
     </td>
   </tr>
