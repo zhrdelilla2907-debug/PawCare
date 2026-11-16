@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/latar_blakang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:id="@+id/tvHomeGreeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halo, Pecinta Kucing! 🐾"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#66536E"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang di PawCare"
+                android:textSize="15sp"
+                android:textColor="#66536E"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:src="@drawable/banner_kucing"
+                android:scaleType="centerCrop"
+                android:contentDescription="Banner kucing PawCare"
+                android:layout_marginTop="22dp"
+                android:elevation="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐾 Jelajahi Kategori"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#66536E"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="13dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#F8E2EF"
+                    android:padding="5dp"
+                    android:elevation="3dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/makanan"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Makanan kucing"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:gravity="center"
+                        android:text="Makanan"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#66536E"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#E9DDF2"
+                    android:padding="5dp"
+                    android:layout_marginStart="8dp"
+                    android:elevation="3dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/kesehatan"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Kesehatan kucing"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:gravity="center"
+                        android:text="Kesehatan"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#66536E"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#F8E2EF"
+                    android:padding="5dp"
+                    android:layout_marginStart="8dp"
+                    android:elevation="3dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:src="@drawable/perawatan"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Perawatan kucing"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:gravity="center"
+                        android:text="Perawatan"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#66536E"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🐾 Tips &amp; Artikel"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#66536E"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="13dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:padding="7dp"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/artikel_perawatan"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Artikel perawatan kucing"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cara Merawat Kucing"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#66536E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pelajari tips merawat kucing dengan baik dan benar."
+                        android:textSize="12sp"
+                        android:textColor="#887B91"
+                        android:layout_marginTop="7dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:padding="7dp"
+                android:layout_marginTop="13dp"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/artikel_makanan"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Artikel makanan kucing"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Makanan Sehat untuk Kucing"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#66536E"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kenali pilihan makanan yang baik untuk kucing."
+                        android:textSize="12sp"
+                        android:textColor="#887B91"
+                        android:layout_marginTop="7dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="🏠&#10;Beranda"
+            android:textColor="#A88BC1"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/navArticle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="📖&#10;Artikel"
+            android:textColor="#887B91"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="👤&#10;Profil"
+            android:textColor="#887B91"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

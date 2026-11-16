@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profil Saya"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#66536E"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="#F1E8F5">
+
+            <ImageView
+                android:id="@+id/imgEditProfile"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:src="@drawable/banner_kucing"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bg_profile_circle"
+                android:clipToOutline="true"
+                android:contentDescription="Foto profil"/>
+
+            <Button
+                android:id="@+id/btnChangePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="📷  Ubah Foto"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#A88BC1"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#66536E"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Masukkan nama kamu"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:background="#F1E8F5"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Email"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#66536E"
+            android:layout_marginTop="22dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Masukkan alamat email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:background="#F1E8F5"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Simpan Perubahan"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A88BC1"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
