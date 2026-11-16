@@ -44,5 +44,32 @@ Berikut merupakan dokumentasi tampilan dari aplikasi PawCare.
 
 ### Tampilan Aplikasi
 
-<!-- Screenshot aplikasi akan ditambahkan di bagian ini -->
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/splashscreen.jpg" width="180">
+      <br>Splash Screen
+    </td>
+    <td align="center">
+      <img src="screenshots/login.jpg" width="180">
+      <br>Login
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/login1.jpg" width="180">
+      <br>Login 1
+    </td>
+    <td align="center">
+      <img src="screenshots/beranda.jpg" width="180">
+      <br>Beranda
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/artikel.jpg" width="180">
+      <br>Artikel
+    </td>
+  </tr>
+</table>
 
