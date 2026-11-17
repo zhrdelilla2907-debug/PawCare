@@ -43,33 +43,25 @@ Berikut langkah-langkah untuk menjalankan aplikasi PawCare pada perangkat Androi
 
 Berikut merupakan dokumentasi tampilan dari aplikasi PawCare.
 
-### Tampilan Aplikasi
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/splashscreen.jpeg" width="180">
-      <br>Splash Screen
-    </td>
-    <td align="center">
-      <img src="screenshots/login.jpeg" width="180">
+      <img src="login.jpeg" width="180">
       <br>Login
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="screenshots/login1.jpeg" width="180">
+      <img src="login1.jpeg" width="180">
       <br>Login 1
     </td>
-    <td align="center">
-      <img src="screenshots/beranda.jpeg" width="180">
-      <br>Beranda
-    </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/artikel.jpg" width="180">
+      <img src="beranda.jpeg" width="180">
+      <br>Beranda
+    </td>
+    <td align="center">
+      <img src="artikel.jpeg" width="180">
       <br>Artikel
     </td>
   </tr>
 </table>
-
