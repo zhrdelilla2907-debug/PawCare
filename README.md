@@ -46,19 +46,25 @@ Berikut merupakan dokumentasi tampilan dari aplikasi PawCare.
 <table>
   <tr>
     <td align="center">
-      <img src="login.jpeg" width="180">
-      <br>Login
+      <img src="splashscreen.jpeg" width="180">
+      <br>Splash Screen
     </td>
     <td align="center">
-      <img src="login1.jpeg" width="180">
-      <br>Login 1
+      <img src="login.jpeg" width="180">
+      <br>Login
     </td>
   </tr>
   <tr>
     <td align="center">
+      <img src="login1.jpeg" width="180">
+      <br>Login 1
+    </td>
+    <td align="center">
       <img src="beranda.jpeg" width="180">
       <br>Beranda
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <img src="artikel.jpeg" width="180">
       <br>Artikel
